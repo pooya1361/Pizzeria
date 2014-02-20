@@ -1,0 +1,174 @@
+@CHARSET "windows-1256";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#page {
+	background-color: rgba(235, 235, 235, 0.71);
+	padding: 30px;
+	margin: auto;
+	width: 75%;
+}
+
+#header {
+	background-image: url('mWTwr6O.jpg');
+	position: relative;
+	height: 150px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+}
+
+h1 {
+	color: red;
+	width: 190px;
+	-webkit-transform: rotate(-8deg);
+	padding-top: 30px;
+	padding-left: 20px;
+	font-family: 'courier';
+}
+
+/* ==================== Menu ==================== */
+#menu_band {
+	background-color: #FFFFCC;
+	display: inline-block;
+	width: 100%;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	position: absolute;
+	bottom: -15px;
+}
+
+#menu {
+	float: right;
+	position: relative;
+	left: -50%;
+	text-align: left;
+}
+
+#menu ul {
+	list-style: none;
+	position: relative;
+	left: 50%;
+}
+
+#menu ul li {
+	background-color: #FFFFCC;
+	margin: 0px;
+	display: inline;
+	float: left;
+	position: relative;
+	padding: 0px;
+}
+
+#menu ul li a {
+	display: inline-block;
+	line-height: 49px;
+	padding: 0 14px;
+	color: #3399FF;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 0.08em;
+}
+
+#menu ul li a:hover {
+	background: #424242;
+	cursor: pointer;
+}
+/*
+.sub-menu {
+	display: none;
+	overflow: hidden;
+	filter: alpha(opacity =                                       0);
+}
+
+.sub-menu li {
+	float: none;
+	display: list-item;
+	color: lime;
+}
+
+/*
+.portfolio:hover + .submenu{
+	background: white;
+	display: inline-block;
+}
+*/
+* /
+	/* ==================== content ==================== */ 
+content {
+	
+}
+
+div#frame {
+	height: 500px;
+	border: 3px ridge;
+	background-color: #FFFFCC;
+	margin-top: 30px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+/* ==================== Ingredients Slidebar ==================== */
+div#component {
+	width: 95%;
+	height: 30%;
+	margin: 30px auto 10px auto;
+	position: relative;
+	font-size: 0px;
+	border: 1px black solid;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+div#leftButton {
+	width: 5%;
+	height: 100%;
+	background-color: white;
+	display: inline-block;
+	float: left;
+}
+
+div#leftButton img {
+	max-width: 100%;
+	position: relative;
+	margin: auto 0;
+}
+
+div#rightButton {
+	width: 5%;
+	height: 100%;
+	background-color: green;
+	display: inline-block;
+	float: right;
+}
+
+div#fixedPart {
+	vertical-align: top;
+	width: 90%;
+	height: 100%;
+	overflow: hidden;
+	display: inline-block;
+}
+
+div#slideBar {
+	overflow: hidden;
+	position: relative;
+	width: 1000px;
+	height: 100%;
+}
+
+div#slideBar img {
+	/*max-width: 20%;*/
+	max-height: 98%;
+	display: inline-block;
+	position: relative;
+	border: 2px white solid;
+	border-radius: 0px;
+}
+
+div#slideBar img:HOVER {
+	border-color: #3399FF;
+}
